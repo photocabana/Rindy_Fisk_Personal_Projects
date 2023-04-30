@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', sans-serif;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1250px;
+    background-color: rgb(112, 53, 53);
+    padding: 5px;
+    border: 4px solid black;
+    border-bottom: 8px solid black;
+}
+
+
+/*Navbar*/
+
+
+#navbar, h1, .search {
+    display: flex;
+    height: 110px;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 8px solid black;
+    box-shadow: 4px 4px black;
+}
+
+h1 {
+    color: darkgoldenrod;
+    font-size: 65px;
+}
+
+form {
+    color: darkgoldenrod;
+    font-size: 14pt;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    background-color: darkgoldenrod;
+    font-size: 16pt;
+    color: black;
+    padding: 5px 5px;
+    margin: 5px;
+}
+
+/*Banner*/
+
+.banner {
+    background-color: rgb(78, 33, 33);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    border: 4px solid black;
+    /* border-bottom: 8px solid black; */
+    box-shadow: 4px 4px black;
+}
+
+h2 { 
+    color: rgba(255, 217, 0, 0.968);
+    font-style: oblique;
+    font-size: 42px;
+}
+
+.banner img {
+    background-color: rgb(78, 33, 33);
+    width: 200px;
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 4px 4px black;
+}
+
+
+/*Main*/
+
+#main {
+    display: flex;
+    gap: 20px;
+    /* border-bottom: 8px solid black; */
+    /* border-left: 4px solid black;
+    border-right: 4px solid black; */
+    /* box-shadow: 4px 4px black; */
+}
+
+
+/*Left Side Main*/
+
+.chicken_reveal {
+    background-color: rgb(78, 33, 33);
+    flex: 3;
+    margin-top: 50px;
+    padding: 30px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.chicken_reveal p {
+    color: rgba(255, 217, 0, 0.968);
+    font-size: 40px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#chicken_switcher {
+    width: 600px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+/*Right Side Main*/
+
+.chicken6 {
+    width: 110px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 4px 4px black;
+}
+
+.chicken7 {
+    width: 150px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 4px 4px black;
+}
+
+.names {
+    background-color:  rgb(78, 33, 33);
+    color: rgba(255, 217, 0, 0.968);
+    flex: 2;
+    font-size: 35px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+h3 {
+    color: rgba(255, 217, 0, 0.968);
+    margin-top: 80px;
+}
+
+.chicken5 {
+    width: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 4px 4px black;
+}
+
+
+
+/*Info Div w/ Links*/
+
+.compare {
+    background-color: rgb(78, 33, 33);
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+    border: 4px solid black;
+    /* border-bottom: 8px solid black; */
+    box-shadow: 4px 4px black;
+}
+
+
+.compare .hen_roo {
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+
+.compare .links {
+    background-color: rgb(78, 33, 33);
+    display: inline-block;
+    justify-content: space-evenly;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+
+.links {
+    font-size: 24px;
+    margin: 10px;
+    padding: 5px;
+}
+
+a {
+    color: rgba(255, 217, 0, 0.968);
+    text-decoration: none;
+}
+
+.chicken1, .chicken3 {
+    width: 120px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.chicken2 {
+    width: 90px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.chicken4 {
+    width: 65px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+/* End Div*/
+
+.end {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.farmers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50pt;
+}
+
+
+.fail_army {
+    width: 150px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
